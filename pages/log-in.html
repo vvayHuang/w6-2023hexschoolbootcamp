@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>會員登入 - 7TAO活動訂票網</title>
+</head>
+
+<body>
+    <%- include('./layout/header'); -%>
+
+        <main class="container py-12" style="height: 100vh;">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-4">
+                    <img class="d-block mx-auto mb-5" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" alt="sparkler.png">
+                    <h2 class="fs-7 text-center mb-5">會員登入</h2>
+                    <form>
+                        <div class="mb-5">
+                          <label for="name" class="form-label font-Noto-Sans-TC">會員登入</label>
+                          <input type="text" class="font-Noto-Sans-TC form-control px-5 py-2" id="name" aria-describedby="name" placeholder="請輸入帳號">
+                        </div>
+                        <div class="mb-5">
+                          <label for="password" class="form-label font-Noto-Sans-TC">密碼</label>
+                          <input type="password" class="font-Noto-Sans-TC form-control px-5 py-2" id="password" placeholder="請輸入密碼">
+                        </div>
+                        <a href="#" class="btn btn-primary d-block mx-auto fs-8 w-100 mt-8">登入>></a>
+                      </form>
+                </div>
+            </div>
+        </main>
+
+        <%- include('./layout/modal'); -%>
+            <%- include('./layout/footer'); -%>
+
+                <script type="module" src="../main.js"></script>
+</body>
+
+</html>

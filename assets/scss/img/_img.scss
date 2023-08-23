@@ -1,0 +1,44 @@
+.hero{
+    &-img{
+        height: 518px;
+        background: center / cover no-repeat url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/13.jpg?raw=true);
+    }
+    .list-img{
+        width: 80px;
+        height: 80px;
+        display: block;
+        @include media-breakpoint-down(md) { 
+            width: 40px;
+            height: 40px;
+         }
+    }
+}
+.card{
+    img{
+        max-height: 255px;
+    }
+}
+.card-footer{
+    img{
+        width: 24px;
+        height: 24px;
+        vertical-align: sub;
+    }
+}
+.post{
+    &-img{
+        height: 598px;
+        @include media-breakpoint-down(sm){
+            height: 204px;
+        }
+    }
+}
+.online{
+    img{
+        height: 317px;
+        object-position: 0% 30%;
+        @include media-breakpoint-down(sm){
+            height: 158px;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+header{
+    .navbar-brand{
+        img{
+            @include media-breakpoint-down(sm){
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    .form-control{
+        width: 284px;
+        @include media-breakpoint-down(sm){
+            width: 168px;
+        }
+    }
+    .icofont{
+        font-size: 20px;
+        @include media-breakpoint-down(sm){
+            font-size: 16px;
+        }
+    }
+}

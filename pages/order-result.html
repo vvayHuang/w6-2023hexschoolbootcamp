@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>訂購結果 - 7TAO活動訂票網</title>
+</head>
+
+<body>
+    <%- include('./layout/header'); -%>
+
+        <main class="order-confirmation container py-md-12 py-7">
+            <div class="row justify-content-center">
+                <div class="col-md-6 position-relative">
+                    <div class="progress position-absolute translate-middle" role="progressbar" aria-label="Example 1px high" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 1px">
+                        <div class="progress-bar" style="width: 100%"></div>
+                      </div>
+                    <ol class="list-unstyled d-flex justify-content-between position-relative mb-11">
+                        <li class="d-flex flex-column align-items-center">
+                            <p class="order-confirmation-step mb-2 text-center p-3 active"><i class="icofont icofont-verification-check"></i></p>
+                            <p>訂單確認</p>
+                        </li>
+                        <li class="d-flex flex-column align-items-center">
+                            <p class="order-confirmation-step mb-2 text-center p-3 active"><i class="icofont icofont-verification-check"></i></p>
+                            <p>結帳付款</p>
+                        </li>
+                        <li class="d-flex flex-column align-items-center">
+                            <p class="order-confirmation-step mb-2 text-center p-3 active">3</p>
+                            <p>訂購結果</p>
+                        </li>
+                    </ol>
+                    <div class="border-3 border rounded-circle p-2 text-center mx-auto mb-2" style="width: 48px;height: 48px;"><i class="icofont icofont-verification-check"></i></div>
+                    <h1 class="fs-5 pb-8 text-center">訂購成功</h1>
+                    <ul class="list-unstyled border-3 border-top">
+                        <li>
+                            <div class="d-flex justify-content-between py-2 border-bottom">
+                                <p>訂單編號</p>
+                                <p class="font-Noto-Sans-TC">892746123</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between py-2 border-bottom">
+                                <p>票券</p>
+                                <p class="font-Noto-Sans-TC">改頭換面票（含大改造）$8000</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between py-2 border-bottom">
+                                <p>取票序號</p>
+                                <p class="font-Noto-Sans-TC text-danger fw-bold">95G54J4434</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between py-2 border-bottom">
+                                <p>取票號碼</p>
+                                <p class="font-Noto-Sans-TC text-danger fw-bold">04597101</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="font-Noto-Sans-TC text-black-50">請至 7-Eleven 完成取票，請於 ibon 點選【購票/取票/訂房】>【售票系統】>【取票】>【拓元售票系統】。
+                        若您未前往取票，本筆交易仍視為完成，不可取消訂單。
+                        若需退票，請按照退票辦法進行申請。</p>
+                </div>
+            </div>
+        </main>
+
+        <%- include('./layout/modal'); -%>
+            <%- include('./layout/footer'); -%>
+
+                <script type="module" src="../main.js"></script>
+</body>
+
+</html>

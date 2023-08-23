@@ -1,0 +1,35 @@
+.online{
+    .card{
+        padding: 16px;
+        border: 2px solid $primary;
+        @include media-breakpoint-down(sm){
+            padding: 12px;
+        }
+        &-title{
+            background-color: $white;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 8px 16px;
+            margin-bottom: 0;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-4deg);
+        }
+        &-img{
+            height: 274px;
+            object-fit: cover;
+        }
+        &-text{
+            font-size: 18px;
+        }
+    }
+    li{
+        &:nth-child(2){
+            transform: rotate(2deg);
+        }
+        &:nth-child(3){
+            transform: rotate(-2deg);
+        }
+    }
+}

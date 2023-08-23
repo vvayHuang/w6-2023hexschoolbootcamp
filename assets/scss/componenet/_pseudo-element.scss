@@ -1,0 +1,60 @@
+.date-content {
+  padding: 48px 44px;
+  position: relative;
+  border: 3px solid $primary;
+  @include media-breakpoint-down(sm){
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    border: 2px solid $primary;
+  }
+}
+
+.date {
+  margin-bottom: 126px;
+  @include media-breakpoint-down(sm){
+    margin-right: 87px;
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+}
+
+.time::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 2px;
+  height: 100px;
+  background-color: black;
+  transform: rotate(25deg);
+  @include media-breakpoint-down(sm){
+    height: 50px;
+  }
+}
+
+.order-confirmation {
+  &-step {
+    border: 1px solid $primary;
+    width: 48px;
+    height: 48px;
+    background-color: $body-bg;
+    z-index: 1;
+
+    &.active {
+      background-color: $primary;
+      color: $secondary;
+
+    }
+  }
+
+  .progress {
+    top: 25px;
+    left: 50%;
+    width: 90%;
+  }
+}
