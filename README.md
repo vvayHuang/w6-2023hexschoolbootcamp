@@ -6,6 +6,6 @@
 ## 使用
 - vite
 - bootstrap5
-- iconfont
-- swiper
-- aos
+- [iconfont](https://icofont.com/)
+- [swiper](https://swiperjs.com/)
+- [aos](https://michalsnik.github.io/aos/)
