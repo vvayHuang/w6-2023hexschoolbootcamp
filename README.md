@@ -8,3 +8,4 @@
 - bootstrap5
 - iconfont
 - swiper
+- aos
