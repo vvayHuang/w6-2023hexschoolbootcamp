@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>會員登入 - 7TAO活動訂票網</title>
+  <script type="module" crossorigin src="/w6-2023hexschoolbootcamp/assets/main-439b3176.js"></script>
+  <link rel="stylesheet" href="/w6-2023hexschoolbootcamp/assets/main-e940c0d5.css">
+</head>
+
+<body>
+    <header>
+  <nav class="border-3 border-bottom navbar navbar-expand-lg py-md-7 py-3">
+      <div class="container">
+          <a class="navbar-brand me-md-11 me-0 py-0" href="index.html"><img class="me-md-5" width="53" height="53" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/logo.png?raw=true" alt="logo"><div class="d-none d-md-inline-block"><span class="fs-4 align-middle me-1">7TAO</span><span class="fs-9">活動訂票網</span></div></a>
+          <form class="d-flex" role="search">
+              <div class="d-flex">
+                  <input class="form-control border-2 px-md-7 py-2 fs-9" type="search" placeholder="探索活動" aria-label="Search">
+                  <button class="btn btn-primary" type="button"><i class="icofont icofont-search-1 text-secondary"></i></button>
+              </div>
+            </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav me-auto mb-lg-0 flex-grow-1 justify-content-end">
+          <li class="nav-item">
+            <a class="active d-block nav-link py-5 py-md-0 text-center" aria-current="page" href="#"><i class="icofont icofont-ui-file me-1"></i>REGISTER</a>
+          </li>
+          <li class="nav-item">
+            <a class="d-block nav-link py-5 py-md-0 text-center" href="log-in.html"><i class="icofont icofont-ui-user me-1"></i>LOGIN</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+        <main class="container py-12" style="height: 100vh;">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-4">
+                    <img class="d-block mx-auto mb-5" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" alt="sparkler.png">
+                    <h2 class="fs-7 text-center mb-5">會員登入</h2>
+                    <form>
+                        <div class="mb-5">
+                          <label for="name" class="form-label font-Noto-Sans-TC">會員登入</label>
+                          <input type="text" class="font-Noto-Sans-TC form-control px-5 py-2" id="name" aria-describedby="name" placeholder="請輸入帳號">
+                        </div>
+                        <div class="mb-5">
+                          <label for="password" class="form-label font-Noto-Sans-TC">密碼</label>
+                          <input type="password" class="font-Noto-Sans-TC form-control px-5 py-2" id="password" placeholder="請輸入密碼">
+                        </div>
+                        <a href="#" class="btn btn-primary d-block mx-auto fs-8 w-100 mt-8">登入>></a>
+                      </form>
+                </div>
+            </div>
+        </main>
+
+        <div class="modal fade" id="recent" tabindex="-1" aria-labelledby="recentLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="flex-grow-1 fs-7 modal-title text-center" id="recentLabel">立刻成為7TAO會員</h1>
+          <button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-11">
+            <p class="mb-7 font-Noto-Sans-TC">
+                立刻成為七逃會員，加速活動報名流程並取得活動優惠資訊。
+                您也可以先報名活動，日後再註冊帳號，
+                系統會在認證您的Email後，協助您找回舊的訂單。
+            </p>
+            <button type="button" class="btn btn-primary fs-8 text-secondary px-8 py-2 d-block mx-auto" data-bs-dismiss="modal">立即成為會員</button>
+        </div>
+      </div>
+    </div>
+  </div>            <footer class="py-8 border-3 border-top">
+    <p class="text-center">© 7TAO七逃. All Rights Reserved</p>
+</footer>
+                
+</body>
+
+</html>
