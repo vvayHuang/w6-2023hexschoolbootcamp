@@ -8,10 +8,11 @@
         border-top: 1px solid $primary;
         border-right: 1px solid $primary;
         border-bottom: 1px solid $primary;
-        // &:hover,.active{
-        //     background-color: $primary;
-        //     color: $white;
-        //     border-left: 3px solid $secondary;
-        // }
+        &:hover,.active{
+            background-color: $primary;
+            color: $white;
+            border-left: 3px solid $secondary;
+            cursor: pointer;
+        }
     }
 }
